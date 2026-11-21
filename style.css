@@ -29,3 +29,4 @@ table{width:100%;border-collapse:collapse}td,th{border:1px solid var(--line);pad
 .checked{opacity:.55;text-decoration:line-through}
 footer{max-width:980px;margin:0 auto;padding:20px 16px;color:var(--muted);font-size:13px}
 a{color:var(--accent)}
+@media print{header,footer,.actions,.toolbar,nav{display:none!important}body{background:#fff}.detail{border:0;padding:0}.card{break-inside:avoid}}
