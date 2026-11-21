@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khana Khazana — free recipe app</title>
+<meta name="description" content="A free recipe manager: save recipes, plan meals, and build grocery lists. No account, no subscription.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🍳 Khana Khazana</h1>
+  <p>Free recipe manager. No account, no subscription, no server — your recipes stay in your browser.</p>
+  <nav>
+    <button data-view="recipes" class="active">Recipes</button>
+    <button data-view="grocery">Grocery list</button>
+    <button data-view="plan">Meal plan</button>
+    <button data-view="import">Import / Export</button>
+  </nav>
+</header>
+<main id="main"></main>
+<footer>
+  <p>Preloaded with 9 recipes collected on 21 November 2026. The 7 breakfast recipes keep the Reel creator's names and protein counts; their steps are matching internet recipes, not the creator's DM-only versions. See each recipe's source link and note.</p>
+  <p><button class="secondary" onclick="resetAll()">Reset everything</button> · <a href="README.md">About this app</a></p>
+</footer>
+<script src="recipes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

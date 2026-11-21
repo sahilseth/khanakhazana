@@ -1,0 +1,31 @@
+:root{--bg:#fff8ef;--card:#fff;--ink:#2b2118;--muted:#7a6a5c;--accent:#c2410c;--accent2:#16a34a;--line:#eadfd2;--radius:14px}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{position:sticky;top:0;background:#fffdf9;border-bottom:1px solid var(--line);padding:14px 16px;z-index:5}
+header h1{margin:0;font-size:22px}header p{margin:4px 0 0;color:var(--muted);font-size:14px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+nav button,.pill{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 12px;cursor:pointer;font-size:14px}
+nav button.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+main{max-width:980px;margin:0 auto;padding:16px}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+input,select,textarea{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px;font:inherit;background:#fff}
+.toolbar input,.toolbar select{width:auto;flex:1;min-width:160px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;cursor:pointer;text-align:left}
+.card:hover{border-color:var(--accent)}
+.card h3{margin:0 0 6px}.meta{color:var(--muted);font-size:13px;line-height:1.5}
+.tag{display:inline-block;background:#ffedd5;color:#7c2d12;border-radius:999px;padding:3px 8px;font-size:12px;margin-right:6px}
+.detail{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.detail h2{margin-top:0}.detail ul,.detail ol{line-height:1.65}
+.detail li{margin:6px 0}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+button{border:0;border-radius:10px;padding:10px 14px;cursor:pointer;font:inherit}
+.primary{background:var(--accent);color:#fff}.secondary{background:#f1e8dc}.danger{background:#fee2e2;color:#991b1b}
+label{display:block;font-weight:600;margin:12px 0 4px}
+.hint{color:var(--muted);font-size:13px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:640px){.row{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse}td,th{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top}
+.cook{font-size:18px;line-height:1.7}.cook .step{font-size:22px}
+.checked{opacity:.55;text-decoration:line-through}
+footer{max-width:980px;margin:0 auto;padding:20px 16px;color:var(--muted);font-size:13px}
+a{color:var(--accent)}
