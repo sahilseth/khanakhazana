@@ -1,0 +1,24 @@
+{
+  "stores": [
+    {
+      "id": "store-indian-store-ehpodi",
+      "name": "Indian store"
+    },
+    {
+      "id": "store-trader-joe-s-pi8cwk",
+      "name": "Trader Joe's"
+    },
+    {
+      "id": "store-costco-gaw3vm",
+      "name": "Costco"
+    },
+    {
+      "id": "store-home-depot-lowe-s-81ysc0",
+      "name": "Home Depot / Lowe's"
+    },
+    {
+      "id": "store-walmart-t3hbot",
+      "name": "Walmart"
+    }
+  ]
+}
